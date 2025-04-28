@@ -4,20 +4,26 @@ This repository contains an emotion detection project. The project includes Jupy
 
 ## Overview
 
-Making a lightweight CNN-BiLTM model to classify emotions.
+We have developed an emotion classification model based on a CNN-BiLSTM architecture.
+The primary focus of the project was to design a lightweight model capable of running on devices with limited computational resources.
+We have largely succeeded in this goal — the final trained model is less than 5 MB in size without significant compromise on accuracy or performance.
 
 ## Files
 
-- `3 copy.ipynb`: A Jupyter Notebook for emotion detection.
-- `3.ipynb`: Another version of the emotion detection notebook.
-- `emotion_detection_model.zip`: A pre-trained model for emotion detection.
+- `EmotionRecognition.ipynb`: A Jupyter Notebook for emotion detection.
+- `emotion_detection_model.h5`: A pre-trained model for emotion detection.
 
 ## How to Use
 
 1. Clone the repository.
 2. Extract the `emotion_detection_model.zip` file.
-3. Open the Jupyter Notebooks to explore or run the emotion detection analysis.
+3. Now you can start training.
+4. Training Information
+   The model was trained using Kaggle's remote GPU server for faster computation.
+   If you wish to retrain the model, ensure that your system has at least 14 GB of GPU memory to handle the training workload efficiently.
+   You are free to train on any environment, but the hardware requirements must be met for optimal performance.
+5. Open the Jupyter Notebooks to explore or run the emotion detection analysis.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the CC License.
