@@ -26,4 +26,4 @@ We have largely succeeded in this goal — the final trained model is less than 
 
 ## License
 
-This project is licensed under the CC License.
+This project is licensed under the Creative Commons Zero v1.0 Universal License.
