@@ -2,6 +2,10 @@
 
 This repository contains an emotion detection project. The project includes Jupyter Notebooks and a pre-trained model for analyzing emotions.
 
+## Overview
+
+Making a lightweight CNN-BiLTM model to classify emotions.
+
 ## Files
 
 - `3 copy.ipynb`: A Jupyter Notebook for emotion detection.
