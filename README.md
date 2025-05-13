@@ -4,7 +4,7 @@ This repository contains an emotion detection project. The project includes Jupy
 
 ## Overview
 
-We have developed an emotion classification model based on a CNN-BiLSTM architecture.
+We have developed an emotion classification model based on a CNN architecture.
 The primary focus of the project was to design a lightweight model capable of running on devices with limited computational resources.
 We have largely succeeded in this goal — the final trained model is less than 5 MB in size without significant compromise on accuracy or performance.
 
